@@ -20,7 +20,6 @@ This approach mirrors real-world AI security workflows used in digital forensics
 * Understand *how* detection models make decisions
 * Identify vulnerabilities through adversarial evasion
 * Improve robustness based on observed weaknesses
-* Provide an interactive demo for real-time testing
 
 ---
 
@@ -48,13 +47,6 @@ This approach mirrors real-world AI security workflows used in digital forensics
 * Implements targeted defense (e.g., augmentation or adversarial training)
 * Compares performance before vs after improvement
 
-### 🌐 Interactive Web Demo
-
-* Upload image
-* View prediction and confidence
-* Visualize model attention
-* Observe robustness improvements
-
 ---
 
 ## Project Pipeline
@@ -80,72 +72,15 @@ This approach mirrors real-world AI security workflows used in digital forensics
 
 **Explainability**
 
-* Grad-CAM / Saliency maps
-
-**Deployment**
-
-* Streamlit web interface
+* Grad-CAM
 
 **Training Environment**
 
-* Google Colab / Kaggle (GPU)
+* Google Colab
 
 **Version Control**
 
 * GitHub
-
----
-
-## Project Structure
-
-```
-authentica-ai/
-│
-├── data/
-├── notebooks/
-│   ├── training.ipynb
-│   ├── evaluation.ipynb
-│   ├── adversarial_attack.ipynb
-│   └── improvement.ipynb
-│
-├── model/
-│   └── model.pth
-│
-├── app/
-│   └── streamlit_app.py
-│
-├── results/
-│   ├── metrics/
-│   ├── gradcam/
-│   └── adversarial_examples/
-│
-└── README.md
-```
-
----
-
-## How to Run
-
-### 1. Clone repository
-
-```
-git clone <repo-link>
-cd authentica-ai
-```
-
-### 2. Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
-### 3. Run web app
-
-```
-streamlit run app/streamlit_app.py
-```
-
----
 
 ## Evaluation Metrics
 
@@ -181,15 +116,3 @@ streamlit run app/streamlit_app.py
 * Frequency-domain analysis
 * Larger datasets
 * Real-time video deepfake detection
-
----
-
-## License
-
-Hackathon research prototype — educational and demonstration use.
-
----
-
-## Acknowledgment
-
-Built as part of a hackathon challenge exploring robustness and security in AI-based visual perception systems.
