@@ -1,0 +1,12 @@
+torch==2.2.2
+torchvision==0.17.2
+numpy<2
+Pillow>=9.0.0
+opencv-python
+matplotlib
+seaborn
+scikit-learn
+tqdm
+grad-cam
+kaggle
+jupyter
