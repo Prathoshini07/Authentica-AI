@@ -73,6 +73,7 @@ This approach mirrors real-world AI security workflows used in digital forensics
 **Explainability**
 
 * Grad-CAM
+* Saliency maps
 
 **Training Environment**
 
