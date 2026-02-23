@@ -118,7 +118,7 @@ This approach mirrors real-world AI security workflows used in digital forensics
 * Larger datasets
 * Real-time video deepfake detection
 
-##**Team Memebers**
+## Team Memebers
 * Avanthika H J (22pw07)
 * Divyadharshini H (22pw14)
 * Himani K H (22pw19)
